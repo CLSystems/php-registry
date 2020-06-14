@@ -1,0 +1,27 @@
+{
+  "name": "clsystems/php-registry",
+  "type": "php",
+  "description": "Php Registry package",
+  "keywords": [
+    "php",
+    "registry"
+  ],
+  "homepage": "https://github.com/clsystems/php-registry",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jeroen Guyt",
+      "email": "jeroen@clsystems.nl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "clsystems/php-filter": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CLSystems\\Php\\": "src/"
+    }
+  }
+}
